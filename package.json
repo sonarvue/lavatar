@@ -1,0 +1,52 @@
+{
+  "name": "lavatar",
+  "version": "0.1.0",
+  "private": false,
+  "license": "MIT",
+  "description": "Lavatar is a shader-inspired avatar component for shadcn/ui projects.",
+  "author": "Sonarvue",
+  "homepage": "https://sonarvue.github.io/lavatar/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonarvue/lavatar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sonarvue/lavatar/issues"
+  },
+  "keywords": [
+    "avatar",
+    "shadcn",
+    "react",
+    "webgl",
+    "glsl",
+    "generative-art",
+    "typescript"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "registry:validate": "npx shadcn@latest registry validate"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "lucide-react": "^1.24.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.5"
+  }
+}

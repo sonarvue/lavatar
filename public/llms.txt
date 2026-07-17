@@ -1,0 +1,18 @@
+# Lavatar
+
+> Lavatar is an open-source deterministic WebGL2 avatar component for React and shadcn/ui.
+
+## Links
+
+- Playground: https://sonarvue.github.io/lavatar/
+- Source: https://github.com/sonarvue/lavatar
+- Install: `npx shadcn@latest add sonarvue/lavatar/lavatar`
+- Creator: https://www.sonarvue.com/
+
+## Capabilities
+
+- Generates the same animated avatar for the same seed.
+- Runs locally with no image requests or stored avatar files.
+- Supports lava, aurora, nebula, plasma, and monochrome palettes.
+- Supports rounded, circular, and square shapes.
+- Respects reduced-motion preferences and includes a CSS fallback.

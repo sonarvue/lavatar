@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "lavatar",
+  "homepage": "https://github.com/sonarvue/lavatar",
+  "items": [
+    {
+      "name": "lavatar",
+      "type": "registry:ui",
+      "title": "Lavatar",
+      "description": "A deterministic animated WebGL2 avatar generated locally from a seed, email, or user ID.",
+      "author": "Sonarvue",
+      "categories": ["avatar", "animation", "webgl"],
+      "files": [
+        {
+          "path": "src/components/ui/lavatar.tsx",
+          "type": "registry:ui",
+          "target": "@ui/lavatar.tsx"
+        }
+      ],
+      "docs": "WebGL2 powers the animation. The component is SSR-safe, respects prefers-reduced-motion, and keeps a CSS fallback visible when WebGL2 is unavailable."
+    }
+  ]
+}
