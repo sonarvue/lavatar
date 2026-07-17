@@ -2,7 +2,7 @@
 
 Deterministic animated shader avatars for React and shadcn/ui.
 
-[Live playground](https://sonarvue.github.io/lavatar/) · [MIT license](./LICENSE) · Built by [Sonarvue](https://www.sonarvue.com/)
+[Live playground](https://lavatar.sonarvue.com/) · [MIT license](./LICENSE) · Built by [Sonarvue](https://www.sonarvue.com/)
 
 ![Lavatar playground showing deterministic WebGL avatar examples](./docs/lavatar-preview.png)
 
@@ -12,6 +12,12 @@ Lavatar turns any stable string into a living visual identity. The same seed alw
 
 ```bash
 npx shadcn@latest add sonarvue/lavatar/lavatar
+```
+
+Pin the current release when you need reproducible installs:
+
+```bash
+npx shadcn@latest add sonarvue/lavatar/lavatar#v0.1.0
 ```
 
 Then use the component from your project:

@@ -4,7 +4,7 @@
 
 ## Links
 
-- Playground: https://sonarvue.github.io/lavatar/
+- Playground: https://lavatar.sonarvue.com/
 - Source: https://github.com/sonarvue/lavatar
 - Install: `npx shadcn@latest add sonarvue/lavatar/lavatar`
 - Creator: https://www.sonarvue.com/

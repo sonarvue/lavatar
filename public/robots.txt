@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sonarvue.github.io/lavatar/sitemap.xml
+Sitemap: https://lavatar.sonarvue.com/sitemap.xml

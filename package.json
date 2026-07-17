@@ -5,7 +5,7 @@
   "license": "MIT",
   "description": "Lavatar is a shader-inspired avatar component for shadcn/ui projects.",
   "author": "Sonarvue",
-  "homepage": "https://sonarvue.github.io/lavatar/",
+  "homepage": "https://lavatar.sonarvue.com/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sonarvue/lavatar.git"
